@@ -8,7 +8,7 @@ class Team
     end
     
     def clac_win_rate
-        return self.win.to_f/(self.win.to_f+self.lose.to_f)
+        return self.win.to_f / (self.win.to_f + self.lose.to_f)
     end
     
     def show_team_result
@@ -23,7 +23,6 @@ baystars = Team.new("BayStars",56,58,6)
 carp = Team.new("Carp",52,56,12)
 swallows = Team.new("Swallows",41,69,10)
 
-puts "2020年NPBセントラル・リーグ成績表"
 giants.show_team_result
 tigers.show_team_result
 dragons.show_team_result
